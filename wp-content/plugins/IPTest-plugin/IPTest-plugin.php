@@ -30,12 +30,12 @@ function get_ip() {
 function Show_IP() {
 	$ip = get_ip();
 	printf(
-		'<p id="ipcss" style="	
+		'<div><p id="ipcss" style="	
     		float: left;
             position: relative;
     		padding: 5px 10px;
     		font-size: 25px;
-    		line-height: 1.6666;"><span dir="ltr">%s</span></p>',$ip
+    		line-height: 1.6666;"><span>Su ip es la siguiente: </span><span dir="ltr">%s</span></p></div>',$ip
 	);
 }
 
